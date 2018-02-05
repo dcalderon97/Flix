@@ -18,6 +18,7 @@
 		EC13B8EE201FD466007EF228 /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC13B8ED201FD466007EF228 /* FlixUITests.swift */; };
 		EC13B8FC201FDDC0007EF228 /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC13B8FB201FDDC0007EF228 /* NowPlayingViewController.swift */; };
 		EC3520752022AE590084E791 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3520742022AE590084E791 /* MovieCell.swift */; };
+		ECB8A45F202911040034C4E5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB8A45E202911040034C4E5 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		EC13B8EF201FD466007EF228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC13B8FB201FDDC0007EF228 /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
 		EC3520742022AE590084E791 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		ECB8A45E202911040034C4E5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		EF0F7725105CAB9943AE40F3 /* Pods_Flix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38B687CCC2D307F91631CEF /* Pods-Flix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flix/Pods-Flix.debug.xcconfig"; sourceTree = "<group>"; };
 		F66B96239A89A8E915A57AE6 /* Pods-FlixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlixTests/Pods-FlixTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,13 +141,13 @@
 		EC13B8CC201FD466007EF228 /* Flix */ = {
 			isa = PBXGroup;
 			children = (
-				EC13B8FB201FDDC0007EF228 /* NowPlayingViewController.swift */,
+				ECB8A45D202910C90034C4E5 /* Views */,
+				ECB8A45C202910A20034C4E5 /* ViewControllers */,
 				EC13B8CD201FD466007EF228 /* AppDelegate.swift */,
 				EC13B8D1201FD466007EF228 /* Main.storyboard */,
 				EC13B8D4201FD466007EF228 /* Assets.xcassets */,
 				EC13B8D6201FD466007EF228 /* LaunchScreen.storyboard */,
 				EC13B8D9201FD466007EF228 /* Info.plist */,
-				EC3520742022AE590084E791 /* MovieCell.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -166,6 +168,23 @@
 				EC13B8EF201FD466007EF228 /* Info.plist */,
 			);
 			path = FlixUITests;
+			sourceTree = "<group>";
+		};
+		ECB8A45C202910A20034C4E5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC13B8FB201FDDC0007EF228 /* NowPlayingViewController.swift */,
+				ECB8A45E202911040034C4E5 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ECB8A45D202910C90034C4E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC3520742022AE590084E791 /* MovieCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -466,6 +485,7 @@
 				EC13B8FC201FDDC0007EF228 /* NowPlayingViewController.swift in Sources */,
 				EC13B8CE201FD466007EF228 /* AppDelegate.swift in Sources */,
 				EC3520752022AE590084E791 /* MovieCell.swift in Sources */,
+				ECB8A45F202911040034C4E5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,6 +653,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42BG7L54MA;
 				INFOPLIST_FILE = Flix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Flix;
@@ -648,6 +669,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42BG7L54MA;
 				INFOPLIST_FILE = Flix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Flix;
