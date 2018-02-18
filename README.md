@@ -152,7 +152,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-![flix](flix.gif)
+![flix3](flix3.gif)
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
