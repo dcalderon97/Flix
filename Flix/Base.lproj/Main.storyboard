@@ -129,7 +129,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Release Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nPv-P3-tGl">
-                                <rect key="frame" x="152" y="338.33333333333331" width="254" height="21"/>
+                                <rect key="frame" x="152" y="334.33333333333331" width="254" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -151,7 +151,7 @@
                         <constraints>
                             <constraint firstItem="nPv-P3-tGl" firstAttribute="leading" secondItem="PYP-As-lGp" secondAttribute="leading" id="3tb-qd-zWy"/>
                             <constraint firstItem="HaP-SC-kkB" firstAttribute="leading" secondItem="VLV-H2-xKN" secondAttribute="leading" constant="16" id="73w-6x-YBF"/>
-                            <constraint firstItem="nPv-P3-tGl" firstAttribute="top" secondItem="PYP-As-lGp" secondAttribute="bottom" constant="8" id="7gV-ON-Gie"/>
+                            <constraint firstItem="nPv-P3-tGl" firstAttribute="top" secondItem="PYP-As-lGp" secondAttribute="bottom" constant="4" id="7gV-ON-Gie"/>
                             <constraint firstItem="1fy-r3-nq1" firstAttribute="top" relation="greaterThanOrEqual" secondItem="WpG-fl-3fS" secondAttribute="bottom" constant="8" id="9z8-Do-s0G"/>
                             <constraint firstAttribute="trailing" secondItem="PYP-As-lGp" secondAttribute="trailing" constant="8" id="MlQ-WI-bnd"/>
                             <constraint firstAttribute="trailing" secondItem="nPv-P3-tGl" secondAttribute="trailing" constant="8" id="Nep-mf-xlT"/>
@@ -159,7 +159,7 @@
                             <constraint firstItem="PYP-As-lGp" firstAttribute="leading" secondItem="HaP-SC-kkB" secondAttribute="trailing" constant="8" id="b70-Hm-kmt"/>
                             <constraint firstItem="WpG-fl-3fS" firstAttribute="leading" secondItem="VLV-H2-xKN" secondAttribute="leading" constant="8" id="cTn-yc-7Ep"/>
                             <constraint firstItem="J9d-WW-IiK" firstAttribute="leading" secondItem="VLV-H2-xKN" secondAttribute="leading" id="gOY-R1-nL7"/>
-                            <constraint firstItem="WpG-fl-3fS" firstAttribute="top" relation="greaterThanOrEqual" secondItem="nPv-P3-tGl" secondAttribute="bottom" constant="8" id="gfE-ex-cLg"/>
+                            <constraint firstItem="WpG-fl-3fS" firstAttribute="top" relation="greaterThanOrEqual" secondItem="nPv-P3-tGl" secondAttribute="bottom" constant="1" id="gfE-ex-cLg"/>
                             <constraint firstItem="J9d-WW-IiK" firstAttribute="top" secondItem="aMI-bw-c0b" secondAttribute="bottom" id="iMp-QO-p0k"/>
                             <constraint firstItem="HaP-SC-kkB" firstAttribute="centerY" secondItem="J9d-WW-IiK" secondAttribute="bottom" id="lfH-Ab-jvw"/>
                             <constraint firstAttribute="trailing" secondItem="J9d-WW-IiK" secondAttribute="trailing" id="rnt-No-9KE"/>
