@@ -21,6 +21,8 @@
 		ECB8A45F202911040034C4E5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB8A45E202911040034C4E5 /* DetailViewController.swift */; };
 		ECB8A46120291C0E0034C4E5 /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB8A46020291C0E0034C4E5 /* PosterCell.swift */; };
 		ECB8A46320291C770034C4E5 /* SuperheroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB8A46220291C770034C4E5 /* SuperheroViewController.swift */; };
+		ECE9DC2F2047949C00506062 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9DC2E2047949C00506062 /* Movie.swift */; };
+		ECE9DC3220479A9600506062 /* MovieApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9DC3120479A9600506062 /* MovieApiManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		ECB8A45E202911040034C4E5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		ECB8A46020291C0E0034C4E5 /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
 		ECB8A46220291C770034C4E5 /* SuperheroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroViewController.swift; sourceTree = "<group>"; };
+		ECE9DC2E2047949C00506062 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		ECE9DC3120479A9600506062 /* MovieApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieApiManager.swift; sourceTree = "<group>"; };
 		EF0F7725105CAB9943AE40F3 /* Pods_Flix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38B687CCC2D307F91631CEF /* Pods-Flix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flix/Pods-Flix.debug.xcconfig"; sourceTree = "<group>"; };
 		F66B96239A89A8E915A57AE6 /* Pods-FlixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlixTests/Pods-FlixTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 		EC13B8CC201FD466007EF228 /* Flix */ = {
 			isa = PBXGroup;
 			children = (
+				ECE9DC3020479A6E00506062 /* APIManager */,
+				ECE9DC2D2047947900506062 /* Models */,
 				ECB8A45D202910C90034C4E5 /* Views */,
 				ECB8A45C202910A20034C4E5 /* ViewControllers */,
 				EC13B8CD201FD466007EF228 /* AppDelegate.swift */,
@@ -191,6 +197,22 @@
 				ECB8A46020291C0E0034C4E5 /* PosterCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		ECE9DC2D2047947900506062 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECE9DC2E2047949C00506062 /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECE9DC3020479A6E00506062 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				ECE9DC3120479A9600506062 /* MovieApiManager.swift */,
+			);
+			path = APIManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -488,10 +510,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE9DC2F2047949C00506062 /* Movie.swift in Sources */,
 				EC13B8FC201FDDC0007EF228 /* NowPlayingViewController.swift in Sources */,
 				ECB8A46120291C0E0034C4E5 /* PosterCell.swift in Sources */,
 				ECB8A46320291C770034C4E5 /* SuperheroViewController.swift in Sources */,
 				EC13B8CE201FD466007EF228 /* AppDelegate.swift in Sources */,
+				ECE9DC3220479A9600506062 /* MovieApiManager.swift in Sources */,
 				EC3520752022AE590084E791 /* MovieCell.swift in Sources */,
 				ECB8A45F202911040034C4E5 /* DetailViewController.swift in Sources */,
 			);

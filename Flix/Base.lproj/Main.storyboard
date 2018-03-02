@@ -88,10 +88,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="GL6-Ng-4OX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8u7-OD-fbS"/>
-                            <constraint firstAttribute="bottom" secondItem="GL6-Ng-4OX" secondAttribute="bottom" id="fA0-OW-RCa"/>
-                            <constraint firstItem="GL6-Ng-4OX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="grG-Lg-vca"/>
-                            <constraint firstAttribute="trailing" secondItem="GL6-Ng-4OX" secondAttribute="trailing" id="uGX-jG-qsd"/>
+                            <constraint firstAttribute="bottom" secondItem="GL6-Ng-4OX" secondAttribute="bottom" id="5cG-qe-k9G"/>
+                            <constraint firstItem="GL6-Ng-4OX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Y3c-wu-nU7"/>
+                            <constraint firstItem="GL6-Ng-4OX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZVt-gJ-TGp"/>
+                            <constraint firstAttribute="trailing" secondItem="GL6-Ng-4OX" secondAttribute="trailing" id="uXs-W3-VgN"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Movies" id="fjF-af-31P"/>
