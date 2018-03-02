@@ -32,6 +32,7 @@ class NowPlayingViewController: UIViewController,UITableViewDataSource {
     }
     @objc func didPullToRefresh(_ refreshControl: UIRefreshControl){
         fetchMovies()
+        
     }
     func fetchMovies(){
         
@@ -39,6 +40,7 @@ class NowPlayingViewController: UIViewController,UITableViewDataSource {
             if let movies = movies {
                 self.movies = movies
                 self.tableView.reloadData()
+               self.refreshControl.endRefreshing()
             }
         }
         
